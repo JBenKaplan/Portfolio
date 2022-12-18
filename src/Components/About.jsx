@@ -31,13 +31,16 @@ const description =
  * passionate about, or enjoy,
  */
 const skillsList = [
-  "Web design",
-  "User experience",
-  "Inclusive design",
-  "Focus group testing",
-  "Mobile user interfaces",
-  "Graphic design",
-];
+  <img className="skill-icon" src="https://img.icons8.com/ios-filled/512/html-5--v1.png" alt="HTML"/>,
+  <img className="skill-icon" src="https://img.icons8.com/ios-filled/512/css3.png" alt="CSS"/>,
+  <img className="skill-icon" src="https://img.icons8.com/ios-filled/512/javascript.png" alt="JS"/>,
+  <img className="skill-icon" src="https://img.icons8.com/external-tanah-basah-glyph-tanah-basah/512/external-react-social-media-tanah-basah-glyph-tanah-basah.png" alt="React"/>,
+  <img className="skill-icon" src="https://img.icons8.com/external-tal-revivo-bold-tal-revivo/512/external-mongodb-a-cross-platform-document-oriented-database-program-logo-bold-tal-revivo.png" alt="MongoDB"/>,
+  <img className="skill-icon" src="https://img.icons8.com/external-soleicons-line-amoghdesign/512/external-database-soleicons-line-vol-1-soleicons-line-amoghdesign.png" alt="PostgreSQL"/>,
+  <img className="skill-icon" src="https://img.icons8.com/external-tal-revivo-bold-tal-revivo/512/external-vuejs-an-open-source-javascript-framework-for-building-user-interfaces-and-single-page-applications-logo-bold-tal-revivo.png" alt="Vue"/>,
+  <img className="skill-icon" src="https://img.icons8.com/ios-glyphs/512/python.png" alt="Python"/>,
+  <img className="skill-icon" src="https://img.icons8.com/ios/512/flask.png" alt="Flask"/>
+]
 
 /**
  * Use this to give more information about what you are passionate about,
@@ -63,19 +66,11 @@ const About = () => {
         <h2>About Myself</h2>
         <p className="large">{description}</p>
         <hr />
-        <ul
-          style={{
-            textAlign: "left",
-            columns: 2,
-            fontSize: "1.25rem",
-            margin: "2rem 3rem",
-            gap: "3rem",
-          }}
-        >
+        <div className="skillset">
           {skillsList.map((skill) => (
-            <li key={skill}>{skill}</li>
-          ))}
-        </ul>
+            <div key={skill}>{skill}</div>
+            ))}
+        </div>
         <hr />
         <p style={{ padding: "1rem 3rem 0" }}>{detailOrQuote}</p>
       </div>

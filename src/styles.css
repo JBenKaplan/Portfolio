@@ -123,3 +123,14 @@ img.socialIcon {
   width: 30px;
   height: 30px;
 }
+
+.skillset {
+  height: 150px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+img.skill-icon {
+  height: 70px;
+}
