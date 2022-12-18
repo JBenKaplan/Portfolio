@@ -7,7 +7,7 @@
   "scripts": {
     "start": "parcel",
     "build": "parcel build",
-    "build-gh": "parcel build --public-url 'https://JBenKaplan.github.io/JBenKaplan.github.io'",
+    "build-gh": "parcel build --public-url 'https://JBenKaplan.github.com/JBenKaplan.github.io'",
     "predeploy": "npm run build-gh",
     "deploy": "gh-pages -d dist"
   },
