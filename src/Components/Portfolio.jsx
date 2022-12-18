@@ -19,7 +19,9 @@ import React from "react";
  * Need an image? Check out https://unsplash.com to download a photo you
  * freely use on your site.
  */
-import image from "../images/design-desk.jpeg";
+// import image from "../images/design-desk.jpeg";
+
+let image = "https://images.unsplash.com/photo-1506784881475-0e408bbca849?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1468&q=80"
 
 const imageAltText = "desktop with books and laptop";
 
@@ -31,49 +33,50 @@ const imageAltText = "desktop with books and laptop";
  */
 const projectList = [
   {
-    title: "10 Things To Know About Azure Static Web Apps 🎉",
+    title: "Foliage Friends",
     description:
-      "Collaboration to create a beginner friendly article to help explain Azure Static Web Apps and tooling to get started.",
-    url: "https://dev.to/azure/10-things-to-know-about-azure-static-web-apps-3n4i",
+      "Plant tracker app devloped using React and Sequelize. Hand-rolled auth for personalization. Group project created with mobile users in mind.",
+    url: "https://foliage-friends.herokuapp.com/",
+    repo: "http://github.com/jbenkaplan/foliage-friends-frontend"
   },
   {
-    title: "Web Development for Beginners",
+    title: "Computer Workbench",
     description:
-      "Contributed sketch note imagery to accompany each lesson. These help provide visual representation of what is being taught.",
-    url: "https://github.com/microsoft/web-dev-for-beginners",
+      "Develped using React and Mongoose, app is a computer creation website to put together lists of computer parts for budgeting and plannging.",
+    url: "https://computer-workbench.herokuapp.com/",
+    repo: "https://github.com/JBenKaplan/Computer-Workbench"
   },
   {
-    title: "My Resume Site",
+    title: "Checkers",
     description:
-      "Created from Microsoft's resume workshop and deployed to GitHub pages. Includes my experience and design abilities.",
-    url: "https://github.com/microsoft/workshop-library/tree/main/full/build-resume-website",
+      "Javascript web game made for 2 people. Utilized grid and flebox for styling and custom logic to create game functionality.",
+    url: "https://checkers-bk.surge.sh/",
+    repo: "https://github.com/JBenKaplan/Checkers"
   },
   {
-    title: "GitHub Codespaces and github.dev",
+    title: "Tic-Tac-Toe",
     description:
-      "Video interview to explain when to use GitHub.dev versus GitHub Codespaces, and how best to use each tool.",
-    url: "https://www.youtube.com/watch?v=c3hHhRME_XI",
+      "Simple Javascript game created after 1 week at the General Assembly bootcamp. Used flexbox for styling and onclick events for functionality",
+    url: "ttt-bk.surge.sh",
+    repo: "https://github.com/JBenKaplan/u1_hw_tic_tac_toe?organization=JBenKaplan&organization=JBenKaplan",
   },
 ];
 
 const Portfolio = () => {
   return (
     <section className="light" id="portfolio">
-      <h2>Portfolio</h2>
+       <img className="background" src={image} alt={imageAltText} />
+       <div className="portfolio-box">
+      <h2 >Portfolio</h2>
+       </div>
       <div style={{ display: "flex", flexDirection: "row", paddingTop: "3rem" }}>
-        <div style={{ maxWidth: "40%", alignSelf: "center" }}>
-          <img
-            src={image}
-            style={{ height: "90%", width: "100%", objectFit: "cover" }}
-            alt={imageAltText}
-          />
-        </div>
         <div className="container">
           {projectList.map((project) => (
             <div className="box" key={project.title}>
               <a href={project.url} target="_blank" rel="noopener noreferrer">
                 <h3 style={{ flexBasis: "40px" }}>{project.title}</h3>
               </a>
+              <a href={project.repo}>Repo</a>
               <p className="small">{project.description}</p>
             </div>
           ))}

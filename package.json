@@ -1,7 +1,7 @@
 {
-  "name": "educator-js-codespace-template",
+  "name": "ben-kaplan-portfolio",
   "version": "1.0.0",
-  "description": "Educator JS Codespace Template",
+  "description": "Ben Kaplan Portfolio",
   "source": "src/index.html",
   "homepage": "https://github.com/microsoft/codespaces-teaching-template-js#readme",
   "scripts": {
