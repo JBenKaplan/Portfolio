@@ -2503,14 +2503,14 @@ process.umask = function() {
     return 0;
 };
 
-},{}],"ShInH":[function(require,module,exports) {
+},{}],"awEvQ":[function(require,module,exports) {
 "use strict";
 var global = arguments[3];
 var HMR_HOST = null;
 var HMR_PORT = null;
 var HMR_SECURE = false;
 var HMR_ENV_HASH = "d6ea1d42532a7575";
-module.bundle.HMR_BUNDLE_ID = "890e741a975ef6c8";
+module.bundle.HMR_BUNDLE_ID = "0a8ecb283d214d75";
 /* global HMR_HOST, HMR_PORT, HMR_ENV_HASH, HMR_SECURE, chrome, browser, globalThis, __parcel__import__, __parcel__importScripts__, ServiceWorkerGlobalScope */ /*::
 import type {
   HMRAsset,
@@ -2892,11 +2892,11 @@ function hmrAcceptRun(bundle, id) {
     acceptedAssets[id] = true;
 }
 
-},{}],"8lqZg":[function(require,module,exports) {
-var $parcel$ReactRefreshHelpers$20e5 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
+},{}],"bB7Pu":[function(require,module,exports) {
+var $parcel$ReactRefreshHelpers$e4e3 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
 var prevRefreshReg = window.$RefreshReg$;
 var prevRefreshSig = window.$RefreshSig$;
-$parcel$ReactRefreshHelpers$20e5.prelude(module);
+$parcel$ReactRefreshHelpers$e4e3.prelude(module);
 
 try {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
@@ -2909,17 +2909,17 @@ var _reactDom = require("react-dom");
 var _app = require("./App");
 var _appDefault = parcelHelpers.interopDefault(_app);
 (0, _reactDom.render)(/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _appDefault.default), {}, void 0, false, {
-    fileName: "src/index.js",
+    fileName: "index.js",
     lineNumber: 10,
     columnNumber: 8
 }, undefined), document.getElementById("app"));
 
-  $parcel$ReactRefreshHelpers$20e5.postlude(module);
+  $parcel$ReactRefreshHelpers$e4e3.postlude(module);
 } finally {
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","react-dom":"j6uA9","./App":"e9Zfo","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"iTorj":[function(require,module,exports) {
+},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","react-dom":"j6uA9","./App":"ifStX","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"iTorj":[function(require,module,exports) {
 "use strict";
 module.exports = require("./cjs/react-jsx-dev-runtime.development.js");
 
@@ -27051,11 +27051,11 @@ module.exports = require("./cjs/scheduler.development.js");
     /* global __REACT_DEVTOOLS_GLOBAL_HOOK__ */ if (typeof __REACT_DEVTOOLS_GLOBAL_HOOK__ !== "undefined" && typeof __REACT_DEVTOOLS_GLOBAL_HOOK__.registerInternalModuleStop === "function") __REACT_DEVTOOLS_GLOBAL_HOOK__.registerInternalModuleStop(new Error());
 })();
 
-},{}],"e9Zfo":[function(require,module,exports) {
-var $parcel$ReactRefreshHelpers$2430 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
+},{}],"ifStX":[function(require,module,exports) {
+var $parcel$ReactRefreshHelpers$53a7 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
 var prevRefreshReg = window.$RefreshReg$;
 var prevRefreshSig = window.$RefreshSig$;
-$parcel$ReactRefreshHelpers$2430.prelude(module);
+$parcel$ReactRefreshHelpers$53a7.prelude(module);
 
 try {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
@@ -27104,7 +27104,7 @@ const App = ()=>{
         id: "main",
         children: [
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _headerDefault.default), {}, void 0, false, {
-                fileName: "src/App.jsx",
+                fileName: "App.jsx",
                 lineNumber: 44,
                 columnNumber: 7
             }, undefined),
@@ -27112,17 +27112,17 @@ const App = ()=>{
                 name: siteProps.name,
                 title: siteProps.title
             }, void 0, false, {
-                fileName: "src/App.jsx",
+                fileName: "App.jsx",
                 lineNumber: 45,
                 columnNumber: 7
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _aboutDefault.default), {}, void 0, false, {
-                fileName: "src/App.jsx",
+                fileName: "App.jsx",
                 lineNumber: 46,
                 columnNumber: 7
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _portfolioDefault.default), {}, void 0, false, {
-                fileName: "src/App.jsx",
+                fileName: "App.jsx",
                 lineNumber: 47,
                 columnNumber: 7
             }, undefined),
@@ -27131,13 +27131,13 @@ const App = ()=>{
                 primaryColor: primaryColor,
                 secondaryColor: secondaryColor
             }, void 0, false, {
-                fileName: "src/App.jsx",
+                fileName: "App.jsx",
                 lineNumber: 48,
                 columnNumber: 7
             }, undefined)
         ]
     }, void 0, true, {
-        fileName: "src/App.jsx",
+        fileName: "App.jsx",
         lineNumber: 43,
         columnNumber: 5
     }, undefined);
@@ -27147,16 +27147,16 @@ exports.default = App;
 var _c;
 $RefreshReg$(_c, "App");
 
-  $parcel$ReactRefreshHelpers$2430.postlude(module);
+  $parcel$ReactRefreshHelpers$53a7.postlude(module);
 } finally {
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","./Components/About":"kouZu","./Components/Footer":"7GWgX","./Components/Header":"9Dt2F","./Components/Home":"jIEVO","./Components/Portfolio":"lCaEt","./styles.css":"lW6qc","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"kouZu":[function(require,module,exports) {
-var $parcel$ReactRefreshHelpers$17a8 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
+},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","./Components/About":"8enjr","./Components/Footer":"13pbn","./Components/Header":"huOh1","./Components/Home":"3Sn0R","./Components/Portfolio":"984Nl","./styles.css":"7N9bM","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"8enjr":[function(require,module,exports) {
+var $parcel$ReactRefreshHelpers$5cbd = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
 var prevRefreshReg = window.$RefreshReg$;
 var prevRefreshSig = window.$RefreshSig$;
-$parcel$ReactRefreshHelpers$17a8.prelude(module);
+$parcel$ReactRefreshHelpers$5cbd.prelude(module);
 
 try {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
@@ -27192,7 +27192,7 @@ const imageAltText = "purple and blue abstract background";
         src: "https://img.icons8.com/ios-filled/512/html-5--v1.png",
         alt: "HTML"
     }, void 0, false, {
-        fileName: "src/Components/About.jsx",
+        fileName: "Components/About.jsx",
         lineNumber: 35,
         columnNumber: 3
     }, undefined),
@@ -27201,7 +27201,7 @@ const imageAltText = "purple and blue abstract background";
         src: "https://img.icons8.com/ios-filled/512/css3.png",
         alt: "CSS"
     }, void 0, false, {
-        fileName: "src/Components/About.jsx",
+        fileName: "Components/About.jsx",
         lineNumber: 36,
         columnNumber: 3
     }, undefined),
@@ -27210,7 +27210,7 @@ const imageAltText = "purple and blue abstract background";
         src: "https://img.icons8.com/ios-filled/512/javascript.png",
         alt: "JS"
     }, void 0, false, {
-        fileName: "src/Components/About.jsx",
+        fileName: "Components/About.jsx",
         lineNumber: 37,
         columnNumber: 3
     }, undefined),
@@ -27219,7 +27219,7 @@ const imageAltText = "purple and blue abstract background";
         src: "https://img.icons8.com/external-tanah-basah-glyph-tanah-basah/512/external-react-social-media-tanah-basah-glyph-tanah-basah.png",
         alt: "React"
     }, void 0, false, {
-        fileName: "src/Components/About.jsx",
+        fileName: "Components/About.jsx",
         lineNumber: 38,
         columnNumber: 3
     }, undefined),
@@ -27228,7 +27228,7 @@ const imageAltText = "purple and blue abstract background";
         src: "https://img.icons8.com/external-tal-revivo-bold-tal-revivo/512/external-mongodb-a-cross-platform-document-oriented-database-program-logo-bold-tal-revivo.png",
         alt: "MongoDB"
     }, void 0, false, {
-        fileName: "src/Components/About.jsx",
+        fileName: "Components/About.jsx",
         lineNumber: 39,
         columnNumber: 3
     }, undefined),
@@ -27237,7 +27237,7 @@ const imageAltText = "purple and blue abstract background";
         src: "https://img.icons8.com/external-soleicons-line-amoghdesign/512/external-database-soleicons-line-vol-1-soleicons-line-amoghdesign.png",
         alt: "PostgreSQL"
     }, void 0, false, {
-        fileName: "src/Components/About.jsx",
+        fileName: "Components/About.jsx",
         lineNumber: 40,
         columnNumber: 3
     }, undefined),
@@ -27246,7 +27246,7 @@ const imageAltText = "purple and blue abstract background";
         src: "https://img.icons8.com/external-tal-revivo-bold-tal-revivo/512/external-vuejs-an-open-source-javascript-framework-for-building-user-interfaces-and-single-page-applications-logo-bold-tal-revivo.png",
         alt: "Vue"
     }, void 0, false, {
-        fileName: "src/Components/About.jsx",
+        fileName: "Components/About.jsx",
         lineNumber: 41,
         columnNumber: 3
     }, undefined),
@@ -27255,7 +27255,7 @@ const imageAltText = "purple and blue abstract background";
         src: "https://img.icons8.com/ios-glyphs/512/python.png",
         alt: "Python"
     }, void 0, false, {
-        fileName: "src/Components/About.jsx",
+        fileName: "Components/About.jsx",
         lineNumber: 42,
         columnNumber: 3
     }, undefined),
@@ -27264,7 +27264,7 @@ const imageAltText = "purple and blue abstract background";
         src: "https://img.icons8.com/ios/512/flask.png",
         alt: "Flask"
     }, void 0, false, {
-        fileName: "src/Components/About.jsx",
+        fileName: "Components/About.jsx",
         lineNumber: 43,
         columnNumber: 3
     }, undefined)
@@ -27284,7 +27284,7 @@ const About = ()=>{
                 src: image,
                 alt: imageAltText
             }, void 0, false, {
-                fileName: "src/Components/About.jsx",
+                fileName: "Components/About.jsx",
                 lineNumber: 57,
                 columnNumber: 7
             }, undefined),
@@ -27300,7 +27300,7 @@ const About = ()=>{
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h2", {
                         children: "About Myself"
                     }, void 0, false, {
-                        fileName: "src/Components/About.jsx",
+                        fileName: "Components/About.jsx",
                         lineNumber: 67,
                         columnNumber: 9
                     }, undefined),
@@ -27308,12 +27308,12 @@ const About = ()=>{
                         className: "large",
                         children: description
                     }, void 0, false, {
-                        fileName: "src/Components/About.jsx",
+                        fileName: "Components/About.jsx",
                         lineNumber: 68,
                         columnNumber: 9
                     }, undefined),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("hr", {}, void 0, false, {
-                        fileName: "src/Components/About.jsx",
+                        fileName: "Components/About.jsx",
                         lineNumber: 69,
                         columnNumber: 9
                     }, undefined),
@@ -27322,17 +27322,17 @@ const About = ()=>{
                         children: skillsList.map((skill)=>/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
                                 children: skill
                             }, skill, false, {
-                                fileName: "src/Components/About.jsx",
+                                fileName: "Components/About.jsx",
                                 lineNumber: 72,
                                 columnNumber: 13
                             }, undefined))
                     }, void 0, false, {
-                        fileName: "src/Components/About.jsx",
+                        fileName: "Components/About.jsx",
                         lineNumber: 70,
                         columnNumber: 9
                     }, undefined),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("hr", {}, void 0, false, {
-                        fileName: "src/Components/About.jsx",
+                        fileName: "Components/About.jsx",
                         lineNumber: 75,
                         columnNumber: 9
                     }, undefined),
@@ -27342,19 +27342,19 @@ const About = ()=>{
                         },
                         children: detailOrQuote
                     }, void 0, false, {
-                        fileName: "src/Components/About.jsx",
+                        fileName: "Components/About.jsx",
                         lineNumber: 76,
                         columnNumber: 9
                     }, undefined)
                 ]
             }, void 0, true, {
-                fileName: "src/Components/About.jsx",
+                fileName: "Components/About.jsx",
                 lineNumber: 58,
                 columnNumber: 7
             }, undefined)
         ]
     }, void 0, true, {
-        fileName: "src/Components/About.jsx",
+        fileName: "Components/About.jsx",
         lineNumber: 56,
         columnNumber: 5
     }, undefined);
@@ -27364,7 +27364,7 @@ exports.default = About;
 var _c;
 $RefreshReg$(_c, "About");
 
-  $parcel$ReactRefreshHelpers$17a8.postlude(module);
+  $parcel$ReactRefreshHelpers$5cbd.postlude(module);
 } finally {
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
@@ -27519,11 +27519,11 @@ function registerExportsForReactRefresh(module1) {
     }
 }
 
-},{"react-refresh/runtime":"786KC"}],"7GWgX":[function(require,module,exports) {
-var $parcel$ReactRefreshHelpers$8b43 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
+},{"react-refresh/runtime":"786KC"}],"13pbn":[function(require,module,exports) {
+var $parcel$ReactRefreshHelpers$92a3 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
 var prevRefreshReg = window.$RefreshReg$;
 var prevRefreshSig = window.$RefreshSig$;
-$parcel$ReactRefreshHelpers$8b43.prelude(module);
+$parcel$ReactRefreshHelpers$92a3.prelude(module);
 
 try {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
@@ -27589,12 +27589,12 @@ var _youtubeSvgDefault = parcelHelpers.interopDefault(_youtubeSvg);
                             alt: "email",
                             className: "socialIcon"
                         }, void 0, false, {
-                            fileName: "src/Components/Footer.jsx",
+                            fileName: "Components/Footer.jsx",
                             lineNumber: 64,
                             columnNumber: 13
                         }, undefined)
                     }, void 0, false, {
-                        fileName: "src/Components/Footer.jsx",
+                        fileName: "Components/Footer.jsx",
                         lineNumber: 63,
                         columnNumber: 11
                     }, undefined),
@@ -27607,12 +27607,12 @@ var _youtubeSvgDefault = parcelHelpers.interopDefault(_youtubeSvg);
                             alt: "Dev.to",
                             className: "socialIcon"
                         }, void 0, false, {
-                            fileName: "src/Components/Footer.jsx",
+                            fileName: "Components/Footer.jsx",
                             lineNumber: 69,
                             columnNumber: 13
                         }, undefined)
                     }, void 0, false, {
-                        fileName: "src/Components/Footer.jsx",
+                        fileName: "Components/Footer.jsx",
                         lineNumber: 68,
                         columnNumber: 11
                     }, undefined),
@@ -27625,12 +27625,12 @@ var _youtubeSvgDefault = parcelHelpers.interopDefault(_youtubeSvg);
                             alt: "GitHub",
                             className: "socialIcon"
                         }, void 0, false, {
-                            fileName: "src/Components/Footer.jsx",
+                            fileName: "Components/Footer.jsx",
                             lineNumber: 74,
                             columnNumber: 13
                         }, undefined)
                     }, void 0, false, {
-                        fileName: "src/Components/Footer.jsx",
+                        fileName: "Components/Footer.jsx",
                         lineNumber: 73,
                         columnNumber: 11
                     }, undefined),
@@ -27643,12 +27643,12 @@ var _youtubeSvgDefault = parcelHelpers.interopDefault(_youtubeSvg);
                             alt: "Instagram",
                             className: "socialIcon"
                         }, void 0, false, {
-                            fileName: "src/Components/Footer.jsx",
+                            fileName: "Components/Footer.jsx",
                             lineNumber: 83,
                             columnNumber: 13
                         }, undefined)
                     }, void 0, false, {
-                        fileName: "src/Components/Footer.jsx",
+                        fileName: "Components/Footer.jsx",
                         lineNumber: 78,
                         columnNumber: 11
                     }, undefined),
@@ -27661,12 +27661,12 @@ var _youtubeSvgDefault = parcelHelpers.interopDefault(_youtubeSvg);
                             alt: "LinkedIn",
                             className: "socialIcon"
                         }, void 0, false, {
-                            fileName: "src/Components/Footer.jsx",
+                            fileName: "Components/Footer.jsx",
                             lineNumber: 92,
                             columnNumber: 13
                         }, undefined)
                     }, void 0, false, {
-                        fileName: "src/Components/Footer.jsx",
+                        fileName: "Components/Footer.jsx",
                         lineNumber: 87,
                         columnNumber: 11
                     }, undefined),
@@ -27679,12 +27679,12 @@ var _youtubeSvgDefault = parcelHelpers.interopDefault(_youtubeSvg);
                             alt: "Medium",
                             className: "socialIcon"
                         }, void 0, false, {
-                            fileName: "src/Components/Footer.jsx",
+                            fileName: "Components/Footer.jsx",
                             lineNumber: 97,
                             columnNumber: 13
                         }, undefined)
                     }, void 0, false, {
-                        fileName: "src/Components/Footer.jsx",
+                        fileName: "Components/Footer.jsx",
                         lineNumber: 96,
                         columnNumber: 11
                     }, undefined),
@@ -27697,12 +27697,12 @@ var _youtubeSvgDefault = parcelHelpers.interopDefault(_youtubeSvg);
                             alt: "Twitter",
                             className: "socialIcon"
                         }, void 0, false, {
-                            fileName: "src/Components/Footer.jsx",
+                            fileName: "Components/Footer.jsx",
                             lineNumber: 102,
                             columnNumber: 13
                         }, undefined)
                     }, void 0, false, {
-                        fileName: "src/Components/Footer.jsx",
+                        fileName: "Components/Footer.jsx",
                         lineNumber: 101,
                         columnNumber: 11
                     }, undefined),
@@ -27715,18 +27715,18 @@ var _youtubeSvgDefault = parcelHelpers.interopDefault(_youtubeSvg);
                             alt: "YouTube",
                             className: "socialIcon"
                         }, void 0, false, {
-                            fileName: "src/Components/Footer.jsx",
+                            fileName: "Components/Footer.jsx",
                             lineNumber: 111,
                             columnNumber: 13
                         }, undefined)
                     }, void 0, false, {
-                        fileName: "src/Components/Footer.jsx",
+                        fileName: "Components/Footer.jsx",
                         lineNumber: 106,
                         columnNumber: 11
                     }, undefined)
                 ]
             }, void 0, true, {
-                fileName: "src/Components/Footer.jsx",
+                fileName: "Components/Footer.jsx",
                 lineNumber: 55,
                 columnNumber: 7
             }, undefined),
@@ -27741,13 +27741,13 @@ var _youtubeSvgDefault = parcelHelpers.interopDefault(_youtubeSvg);
                     name
                 ]
             }, void 0, true, {
-                fileName: "src/Components/Footer.jsx",
+                fileName: "Components/Footer.jsx",
                 lineNumber: 115,
                 columnNumber: 7
             }, undefined)
         ]
     }, void 0, true, {
-        fileName: "src/Components/Footer.jsx",
+        fileName: "Components/Footer.jsx",
         lineNumber: 44,
         columnNumber: 5
     }, undefined);
@@ -27772,12 +27772,12 @@ exports.default = Footer;
 var _c;
 $RefreshReg$(_c, "Footer");
 
-  $parcel$ReactRefreshHelpers$8b43.postlude(module);
+  $parcel$ReactRefreshHelpers$92a3.postlude(module);
 } finally {
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","prop-types":"7wKI2","../images/socials/devdotto.svg":"69cpV","../images/socials/envelope.svg":"92UhI","../images/socials/github.svg":"vP2m6","../images/socials/instagram.svg":"jH0VA","../images/socials/linkedin.svg":"5XSmz","../images/socials/medium.svg":"cDDa0","../images/socials/twitter.svg":"flM6L","../images/socials/youtube.svg":"hmN7D","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"7wKI2":[function(require,module,exports) {
+},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","prop-types":"7wKI2","../images/socials/devdotto.svg":"eTLUK","../images/socials/envelope.svg":"kKf7B","../images/socials/github.svg":"gQ9Z8","../images/socials/instagram.svg":"jys3X","../images/socials/linkedin.svg":"e9iyB","../images/socials/medium.svg":"bX3H3","../images/socials/twitter.svg":"dVIGs","../images/socials/youtube.svg":"j7foG","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"7wKI2":[function(require,module,exports) {
 var ReactIs = require("react-is");
 // By explicitly using `prop-types` you are opting into new development behavior.
 // http://fb.me/prop-types-in-prod
@@ -28518,8 +28518,8 @@ printWarning = function(text) {
 };
 module.exports = checkPropTypes;
 
-},{"./lib/ReactPropTypesSecret":"jZTZJ","./lib/has":"fqKuf"}],"69cpV":[function(require,module,exports) {
-module.exports = require("./helpers/bundle-url").getBundleURL("bLxZJ") + "devdotto.3bb7afaf.svg" + "?" + Date.now();
+},{"./lib/ReactPropTypesSecret":"jZTZJ","./lib/has":"fqKuf"}],"eTLUK":[function(require,module,exports) {
+module.exports = require("./helpers/bundle-url").getBundleURL("UckoE") + "devdotto.cdf95505.svg" + "?" + Date.now();
 
 },{"./helpers/bundle-url":"lgJ39"}],"lgJ39":[function(require,module,exports) {
 "use strict";
@@ -28555,32 +28555,32 @@ exports.getBundleURL = getBundleURLCached;
 exports.getBaseURL = getBaseURL;
 exports.getOrigin = getOrigin;
 
-},{}],"92UhI":[function(require,module,exports) {
-module.exports = require("./helpers/bundle-url").getBundleURL("bLxZJ") + "envelope.5e5e1d9e.svg" + "?" + Date.now();
+},{}],"kKf7B":[function(require,module,exports) {
+module.exports = require("./helpers/bundle-url").getBundleURL("UckoE") + "envelope.901df329.svg" + "?" + Date.now();
 
-},{"./helpers/bundle-url":"lgJ39"}],"vP2m6":[function(require,module,exports) {
-module.exports = require("./helpers/bundle-url").getBundleURL("bLxZJ") + "github.51e0fbb2.svg" + "?" + Date.now();
+},{"./helpers/bundle-url":"lgJ39"}],"gQ9Z8":[function(require,module,exports) {
+module.exports = require("./helpers/bundle-url").getBundleURL("UckoE") + "github.1f13de9d.svg" + "?" + Date.now();
 
-},{"./helpers/bundle-url":"lgJ39"}],"jH0VA":[function(require,module,exports) {
-module.exports = require("./helpers/bundle-url").getBundleURL("bLxZJ") + "instagram.84def2ad.svg" + "?" + Date.now();
+},{"./helpers/bundle-url":"lgJ39"}],"jys3X":[function(require,module,exports) {
+module.exports = require("./helpers/bundle-url").getBundleURL("UckoE") + "instagram.dc5ca4b1.svg" + "?" + Date.now();
 
-},{"./helpers/bundle-url":"lgJ39"}],"5XSmz":[function(require,module,exports) {
-module.exports = require("./helpers/bundle-url").getBundleURL("bLxZJ") + "linkedin.49c2dcdf.svg" + "?" + Date.now();
+},{"./helpers/bundle-url":"lgJ39"}],"e9iyB":[function(require,module,exports) {
+module.exports = require("./helpers/bundle-url").getBundleURL("UckoE") + "linkedin.8fb3fb77.svg" + "?" + Date.now();
 
-},{"./helpers/bundle-url":"lgJ39"}],"cDDa0":[function(require,module,exports) {
-module.exports = require("./helpers/bundle-url").getBundleURL("bLxZJ") + "medium.6232db8b.svg" + "?" + Date.now();
+},{"./helpers/bundle-url":"lgJ39"}],"bX3H3":[function(require,module,exports) {
+module.exports = require("./helpers/bundle-url").getBundleURL("UckoE") + "medium.d82cbfc4.svg" + "?" + Date.now();
 
-},{"./helpers/bundle-url":"lgJ39"}],"flM6L":[function(require,module,exports) {
-module.exports = require("./helpers/bundle-url").getBundleURL("bLxZJ") + "twitter.7541cc84.svg" + "?" + Date.now();
+},{"./helpers/bundle-url":"lgJ39"}],"dVIGs":[function(require,module,exports) {
+module.exports = require("./helpers/bundle-url").getBundleURL("UckoE") + "twitter.2f63f4f7.svg" + "?" + Date.now();
 
-},{"./helpers/bundle-url":"lgJ39"}],"hmN7D":[function(require,module,exports) {
-module.exports = require("./helpers/bundle-url").getBundleURL("bLxZJ") + "youtube.c3557793.svg" + "?" + Date.now();
+},{"./helpers/bundle-url":"lgJ39"}],"j7foG":[function(require,module,exports) {
+module.exports = require("./helpers/bundle-url").getBundleURL("UckoE") + "youtube.17cf9f7e.svg" + "?" + Date.now();
 
-},{"./helpers/bundle-url":"lgJ39"}],"9Dt2F":[function(require,module,exports) {
-var $parcel$ReactRefreshHelpers$2a62 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
+},{"./helpers/bundle-url":"lgJ39"}],"huOh1":[function(require,module,exports) {
+var $parcel$ReactRefreshHelpers$b95f = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
 var prevRefreshReg = window.$RefreshReg$;
 var prevRefreshSig = window.$RefreshSig$;
-$parcel$ReactRefreshHelpers$2a62.prelude(module);
+$parcel$ReactRefreshHelpers$b95f.prelude(module);
 
 try {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
@@ -28611,7 +28611,7 @@ const Header = ()=>{
                 href: "#home",
                 children: "Home"
             }, void 0, false, {
-                fileName: "src/Components/Header.jsx",
+                fileName: "Components/Header.jsx",
                 lineNumber: 24,
                 columnNumber: 7
             }, undefined),
@@ -28619,7 +28619,7 @@ const Header = ()=>{
                 href: "#about",
                 children: "About"
             }, void 0, false, {
-                fileName: "src/Components/Header.jsx",
+                fileName: "Components/Header.jsx",
                 lineNumber: 25,
                 columnNumber: 7
             }, undefined),
@@ -28627,7 +28627,7 @@ const Header = ()=>{
                 href: "#portfolio",
                 children: "Portfolio"
             }, void 0, false, {
-                fileName: "src/Components/Header.jsx",
+                fileName: "Components/Header.jsx",
                 lineNumber: 26,
                 columnNumber: 7
             }, undefined),
@@ -28635,13 +28635,13 @@ const Header = ()=>{
                 href: "#contact",
                 children: "Contact"
             }, void 0, false, {
-                fileName: "src/Components/Header.jsx",
+                fileName: "Components/Header.jsx",
                 lineNumber: 27,
                 columnNumber: 7
             }, undefined)
         ]
     }, void 0, true, {
-        fileName: "src/Components/Header.jsx",
+        fileName: "Components/Header.jsx",
         lineNumber: 11,
         columnNumber: 5
     }, undefined);
@@ -28651,16 +28651,16 @@ exports.default = Header;
 var _c;
 $RefreshReg$(_c, "Header");
 
-  $parcel$ReactRefreshHelpers$2a62.postlude(module);
+  $parcel$ReactRefreshHelpers$b95f.postlude(module);
 } finally {
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"jIEVO":[function(require,module,exports) {
-var $parcel$ReactRefreshHelpers$0d4d = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
+},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"3Sn0R":[function(require,module,exports) {
+var $parcel$ReactRefreshHelpers$8a16 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
 var prevRefreshReg = window.$RefreshReg$;
 var prevRefreshSig = window.$RefreshSig$;
-$parcel$ReactRefreshHelpers$0d4d.prelude(module);
+$parcel$ReactRefreshHelpers$8a16.prelude(module);
 
 try {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
@@ -28700,7 +28700,7 @@ const Home = ({ name , title  })=>{
                 src: (0, _porJpegDefault.default),
                 alt: ""
             }, void 0, false, {
-                fileName: "src/Components/Home.jsx",
+                fileName: "Components/Home.jsx",
                 lineNumber: 30,
                 columnNumber: 7
             }, undefined),
@@ -28714,20 +28714,20 @@ const Home = ({ name , title  })=>{
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h1", {
                         children: name
                     }, void 0, false, {
-                        fileName: "src/Components/Home.jsx",
+                        fileName: "Components/Home.jsx",
                         lineNumber: 32,
                         columnNumber: 9
                     }, undefined),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h2", {
                         children: title
                     }, void 0, false, {
-                        fileName: "src/Components/Home.jsx",
+                        fileName: "Components/Home.jsx",
                         lineNumber: 33,
                         columnNumber: 9
                     }, undefined)
                 ]
             }, void 0, true, {
-                fileName: "src/Components/Home.jsx",
+                fileName: "Components/Home.jsx",
                 lineNumber: 31,
                 columnNumber: 7
             }, undefined),
@@ -28745,18 +28745,18 @@ const Home = ({ name , title  })=>{
                     },
                     alt: imageAltText
                 }, void 0, false, {
-                    fileName: "src/Components/Home.jsx",
+                    fileName: "Components/Home.jsx",
                     lineNumber: 36,
                     columnNumber: 9
                 }, undefined)
             }, void 0, false, {
-                fileName: "src/Components/Home.jsx",
+                fileName: "Components/Home.jsx",
                 lineNumber: 35,
                 columnNumber: 7
             }, undefined)
         ]
     }, void 0, true, {
-        fileName: "src/Components/Home.jsx",
+        fileName: "Components/Home.jsx",
         lineNumber: 29,
         columnNumber: 5
     }, undefined);
@@ -28774,22 +28774,22 @@ exports.default = Home;
 var _c;
 $RefreshReg$(_c, "Home");
 
-  $parcel$ReactRefreshHelpers$0d4d.postlude(module);
+  $parcel$ReactRefreshHelpers$8a16.postlude(module);
 } finally {
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","../images/down-arrow.svg":"b5nCi","prop-types":"7wKI2","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru","../images/por.jpeg":"i3RXa"}],"b5nCi":[function(require,module,exports) {
-module.exports = require("./helpers/bundle-url").getBundleURL("bLxZJ") + "down-arrow.1037091f.svg" + "?" + Date.now();
+},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","../images/down-arrow.svg":"hescM","prop-types":"7wKI2","../images/por.jpeg":"8ZHeO","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"hescM":[function(require,module,exports) {
+module.exports = require("./helpers/bundle-url").getBundleURL("UckoE") + "down-arrow.b8ab33ca.svg" + "?" + Date.now();
 
-},{"./helpers/bundle-url":"lgJ39"}],"i3RXa":[function(require,module,exports) {
-module.exports = require("./helpers/bundle-url").getBundleURL("bLxZJ") + "por.3710c099.jpeg" + "?" + Date.now();
+},{"./helpers/bundle-url":"lgJ39"}],"8ZHeO":[function(require,module,exports) {
+module.exports = require("./helpers/bundle-url").getBundleURL("UckoE") + "por.280a6644.jpeg" + "?" + Date.now();
 
-},{"./helpers/bundle-url":"lgJ39"}],"lCaEt":[function(require,module,exports) {
-var $parcel$ReactRefreshHelpers$ed0d = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
+},{"./helpers/bundle-url":"lgJ39"}],"984Nl":[function(require,module,exports) {
+var $parcel$ReactRefreshHelpers$a2b1 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
 var prevRefreshReg = window.$RefreshReg$;
 var prevRefreshSig = window.$RefreshSig$;
-$parcel$ReactRefreshHelpers$ed0d.prelude(module);
+$parcel$ReactRefreshHelpers$a2b1.prelude(module);
 
 try {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
@@ -28857,7 +28857,7 @@ const Portfolio = ()=>{
                 src: image,
                 alt: imageAltText
             }, void 0, false, {
-                fileName: "src/Components/Portfolio.jsx",
+                fileName: "Components/Portfolio.jsx",
                 lineNumber: 68,
                 columnNumber: 8
             }, undefined),
@@ -28866,12 +28866,12 @@ const Portfolio = ()=>{
                 children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h2", {
                     children: "Portfolio"
                 }, void 0, false, {
-                    fileName: "src/Components/Portfolio.jsx",
+                    fileName: "Components/Portfolio.jsx",
                     lineNumber: 70,
                     columnNumber: 7
                 }, undefined)
             }, void 0, false, {
-                fileName: "src/Components/Portfolio.jsx",
+                fileName: "Components/Portfolio.jsx",
                 lineNumber: 69,
                 columnNumber: 8
             }, undefined),
@@ -28896,12 +28896,12 @@ const Portfolio = ()=>{
                                         },
                                         children: project.title
                                     }, void 0, false, {
-                                        fileName: "src/Components/Portfolio.jsx",
+                                        fileName: "Components/Portfolio.jsx",
                                         lineNumber: 77,
                                         columnNumber: 17
                                     }, undefined)
                                 }, void 0, false, {
-                                    fileName: "src/Components/Portfolio.jsx",
+                                    fileName: "Components/Portfolio.jsx",
                                     lineNumber: 76,
                                     columnNumber: 15
                                 }, undefined),
@@ -28909,7 +28909,7 @@ const Portfolio = ()=>{
                                     href: project.repo,
                                     children: "Repo"
                                 }, void 0, false, {
-                                    fileName: "src/Components/Portfolio.jsx",
+                                    fileName: "Components/Portfolio.jsx",
                                     lineNumber: 79,
                                     columnNumber: 15
                                 }, undefined),
@@ -28917,29 +28917,29 @@ const Portfolio = ()=>{
                                     className: "small",
                                     children: project.description
                                 }, void 0, false, {
-                                    fileName: "src/Components/Portfolio.jsx",
+                                    fileName: "Components/Portfolio.jsx",
                                     lineNumber: 80,
                                     columnNumber: 15
                                 }, undefined)
                             ]
                         }, project.title, true, {
-                            fileName: "src/Components/Portfolio.jsx",
+                            fileName: "Components/Portfolio.jsx",
                             lineNumber: 75,
                             columnNumber: 13
                         }, undefined))
                 }, void 0, false, {
-                    fileName: "src/Components/Portfolio.jsx",
+                    fileName: "Components/Portfolio.jsx",
                     lineNumber: 73,
                     columnNumber: 9
                 }, undefined)
             }, void 0, false, {
-                fileName: "src/Components/Portfolio.jsx",
+                fileName: "Components/Portfolio.jsx",
                 lineNumber: 72,
                 columnNumber: 7
             }, undefined)
         ]
     }, void 0, true, {
-        fileName: "src/Components/Portfolio.jsx",
+        fileName: "Components/Portfolio.jsx",
         lineNumber: 67,
         columnNumber: 5
     }, undefined);
@@ -28949,11 +28949,11 @@ exports.default = Portfolio;
 var _c;
 $RefreshReg$(_c, "Portfolio");
 
-  $parcel$ReactRefreshHelpers$ed0d.postlude(module);
+  $parcel$ReactRefreshHelpers$a2b1.postlude(module);
 } finally {
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"lW6qc":[function() {},{}]},["1xC6H","ShInH","8lqZg"], "8lqZg", "parcelRequire3dff")
+},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"7N9bM":[function() {},{}]},["1xC6H","awEvQ","bB7Pu"], "bB7Pu", "parcelRequire3dff")
 
-//# sourceMappingURL=index.975ef6c8.js.map
+//# sourceMappingURL=index.3d214d75.js.map
