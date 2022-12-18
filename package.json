@@ -13,12 +13,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/microsoft/codespaces-teaching-template-js.git"
+    "url": "git+https://github.com/JBenKaplan/Ben-Kaplan-Portfolio"
   },
-  "author": "Microsoft",
+  "author": "Ben Kaplan",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/microsoft/codespaces-teaching-template-js/issues"
+    "url": "https://github.com/JBenKaplan/Ben-Kaplan-Portfolio/issues"
   },
   "dependencies": {
     "react": "^18.2.0",
