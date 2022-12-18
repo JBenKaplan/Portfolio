@@ -57,7 +57,7 @@ const projectList = [
     title: "Tic-Tac-Toe",
     description:
       "Simple Javascript game created after 1 week at the General Assembly bootcamp. Used flexbox for styling and onclick events for functionality",
-    url: "ttt-bk.surge.sh",
+    url: "https://ttt-bk.surge.sh/",
     repo: "https://github.com/JBenKaplan/u1_hw_tic_tac_toe?organization=JBenKaplan&organization=JBenKaplan",
   },
 ];
