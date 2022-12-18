@@ -2,7 +2,7 @@
   "name": "ben-kaplan-portfolio",
   "version": "1.0.0",
   "description": "Ben Kaplan Portfolio",
-  "source": "src/index.html",
+  "source": "index.html",
   "homepage": "https://JBenKaplan.github.com/Ben-Kaplan-Portfolio",
   "scripts": {
     "start": "parcel",
