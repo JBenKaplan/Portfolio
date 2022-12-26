@@ -67,9 +67,9 @@ const Portfolio = () => {
     <section className="light" id="portfolio">
        <img className="background" src={image} alt={imageAltText} />
        <div className="portfolio-box">
-      <h2 >Portfolio</h2>
+        <h2 >Portfolio</h2>
        </div>
-      <div style={{ display: "flex", flexDirection: "row", paddingTop: "3rem" }}>
+      <div>
         <div className="container">
           {projectList.map((project) => (
             <div className="box" key={project.title}>

@@ -2,7 +2,7 @@
 * CSS file to hold styles that apply across the application
 */
 
-@import url("https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400&family=Montserrat:wght@200;400;600;800&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400&family=Montserrat:wght@200;400;600;800&display=swap');
 
 html,
 body {
@@ -10,7 +10,19 @@ body {
   padding: 0;
   height: 100%;
   width: 100%;
-  font-family: "Montserrat", sans-serif;
+  font-family: 'Montserrat', sans-serif;
+}
+
+#nav-bar {
+  position: fixed;
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  background: rgba(255, 255, 255, 0.75);
+  padding: 1rem;
+  top: 0;
+  width: 100vw;
+  z-index: 10;
 }
 
 div#main {
@@ -48,7 +60,7 @@ section img.background {
 
 h1 {
   font-weight: 300;
-  font-family: "Cormorant Garamond", serif;
+  font-family: 'Cormorant Garamond', serif;
   font-size: 7rem;
   margin: 0;
 }
@@ -75,6 +87,10 @@ p {
 
 p.large {
   font-size: 24px;
+}
+
+p.medium {
+  font-size: 20px;
 }
 
 p.small {
@@ -159,4 +175,63 @@ img.profile {
 #home {
   border: black 2px solid;
   background: linear-gradient(to bottom right, blue, white);
+}
+
+@media screen and (max-width: 390px) {
+  #nav-bar {
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    background: rgba(255, 255, 255, 0.75);
+    padding: 1rem;
+    top: 0;
+    width: 100vw;
+    z-index: 10;
+  }
+  img.profile {
+    position: absolute;
+    top: 20%;
+    left: 10%;
+    /* display: flex;
+    height: 50vh;
+    margin: 0 auto;
+    align-items: center; */
+    box-shadow: 20px 20px rgba(0, 0, 0, 0.663);
+    border-radius: 20px;
+    z-index: -1;
+  }
+  .profile-details {
+    position: absolute;
+    top: 10%;
+    left: 2rem;
+  }
+  .profile-arrow {
+    position: absolute;
+    bottom: 2rem;
+    left: 45%;
+  }
+  p.large {
+    font-size: 20px;
+  }
+  .skillset {
+    height: 350px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  p.medium {
+    font-size: 20px;
+  }
+  .container {
+    display: flex;
+    width: 90vw;
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 420px) {
+}
+@media screen and (max-width: 540px) {
+}
+@media screen and (max-width: 701px) {
 }

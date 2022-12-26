@@ -73,7 +73,7 @@ const About = () => {
             ))}
         </div>
         <hr />
-        <p style={{ padding: "1rem 3rem 0" }}>{detailOrQuote}</p>
+        <p className="medium">{detailOrQuote}</p>
       </div>
     </section>
   );
