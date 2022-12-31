@@ -64,7 +64,7 @@ const About = () => {
           textAlign: "center",
         }}
       >
-        <h2>About Myself</h2>
+        <h2 className="about-title">About Myself</h2>
         <p className="large">{description}</p>
         <hr />
         <div className="skillset">

@@ -21,7 +21,7 @@ body {
   background: rgba(255, 255, 255, 0.75);
   padding: 1rem;
   top: 0;
-  width: 100vw;
+  width: 100%;
   z-index: 10;
 }
 
@@ -36,6 +36,7 @@ section {
 
 section.dark {
   min-height: 100vh;
+  height: 100vh;
   color: white;
   background: rgba(0, 0, 0, 0.25);
 }
@@ -56,6 +57,16 @@ section img.background {
   transform: translate(-50%, 0);
   pointer-events: none;
   object-fit: cover;
+}
+
+.name {
+  position: absolute;
+  top: 30%;
+}
+
+.title {
+  position: absolute;
+  top: 50%;
 }
 
 h1 {
@@ -118,14 +129,25 @@ a:hover {
   color: #4e567e;
 }
 
-.container {
-  margin: 20px auto;
-  display: grid;
-  grid-template-columns: 330px 300px;
-  grid-gap: 20px;
+.box-container {
+  display: flex;
+  margin: 0 auto;
+  flex-direction: row;
+  padding-top: 3rem;
+  width: 50%;
 }
 
-.container .box {
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 0 auto;
+}
+
+.box {
+  margin: 10px 10px;
+  width: 300px;
   border-radius: 10px;
   padding: 24px 16px;
   display: flex;
@@ -136,10 +158,9 @@ a:hover {
   background-color: white;
 }
 
-.portfolio-box {
+.portfolio-title {
   display: flex;
   margin: 0 auto;
-
   justify-content: center;
   border: 1px solid rgb(204, 204, 204);
   background-color: white;
@@ -148,13 +169,21 @@ a:hover {
   border-radius: 10px;
 }
 
+.profile-arrow {
+  position: absolute;
+  bottom: 2rem;
+  left: 50%;
+}
+
+.about-title {
+  text-align: center;
+}
 img.socialIcon {
   width: 30px;
   height: 30px;
 }
 
 .skillset {
-  height: 150px;
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
@@ -174,7 +203,7 @@ img.profile {
 
 #home {
   border: black 2px solid;
-  background: linear-gradient(to bottom right, blue, white);
+  background: linear-gradient(to bottom right, blue, grey);
 }
 
 @media screen and (max-width: 390px) {

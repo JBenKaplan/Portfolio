@@ -37,7 +37,7 @@ const projectList = [
     description:
       "Plant tracker app devloped using React and Sequelize. Hand-rolled auth for personalization. Group project created with mobile users in mind.",
     url: "https://foliage-friends.herokuapp.com/",
-    repo: "http://github.com/jbenkaplan/foliage-friends-frontend"
+    repo: "https://github.com/JBenKaplan/foliage-friends-app-frontend"
   },
   {
     title: "Computer Workbench",
@@ -66,10 +66,10 @@ const Portfolio = () => {
   return (
     <section className="light" id="portfolio">
        <img className="background" src={image} alt={imageAltText} />
-       <div className="portfolio-box">
+       <div className="portfolio-title">
         <h2 >Portfolio</h2>
        </div>
-      <div>
+      <div className="box-container">
         <div className="container">
           {projectList.map((project) => (
             <div className="box" key={project.title}>

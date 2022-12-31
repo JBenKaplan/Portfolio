@@ -29,8 +29,8 @@ const Home = ({ name, title }) => {
     <section id="home" className="dark">
       <img className="profile" src={image} alt="profile" />
       <div className="profile-details">
-        <h1>{name}</h1>
-        <h2>{title}</h2>
+        <h1 className="name">{name}</h1>
+        <h2 className="title">{title}</h2>
       </div>
       <div className="profile-arrow">
         <img src={arrowSvg} style={{ height: "3rem", width: "3rem" }} alt={imageAltText} />
