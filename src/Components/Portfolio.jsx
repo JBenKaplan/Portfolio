@@ -76,6 +76,7 @@ const Portfolio = () => {
               <a href={project.url} target="_blank" rel="noopener noreferrer">
                 <h3 style={{ flexBasis: "40px" }}>{project.title}</h3>
               </a>
+              <br />
               <a href={project.repo}>Repo</a>
               <p className="small">{project.description}</p>
             </div>
