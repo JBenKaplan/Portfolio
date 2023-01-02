@@ -32,7 +32,8 @@ const siteProps = {
   linkedIn: 'JBenKaplan',
   medium: '',
   twitter: '',
-  youTube: ''
+  youTube: '',
+  resume: "https://docs.google.com/document/d/1nirspLT8haICBpu5CjKy8mz-rnq622jA-H9OCtK70go"
 }
 
 const primaryColor = '#4E567E'

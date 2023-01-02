@@ -18,6 +18,7 @@ import linkedInIcon from "../images/socials/linkedin.svg";
 import mediumIcon from "../images/socials/medium.svg";
 import twitterIcon from "../images/socials/twitter.svg";
 import youTubeIcon from "../images/socials/youtube.svg";
+import resumeIcon from "../images/socials/cv.png"
 
 /**
  * 💡 Learning resources
@@ -38,6 +39,7 @@ const Footer = (props) => {
     primaryColor,
     twitter,
     youTube,
+    resume
   } = props;
 
   return (
@@ -90,6 +92,11 @@ const Footer = (props) => {
             rel="noopener noreferrer"
           >
             <img src={linkedInIcon} alt="LinkedIn" className="socialIcon" />
+          </a>
+        )}
+        {resume && (
+          <a href="https://docs.google.com/document/d/1nirspLT8haICBpu5CjKy8mz-rnq622jA-H9OCtK70go" target="_blank">
+            <img src={resumeIcon} alt="resume" className="socialIcon" id="resume"/>
           </a>
         )}
         {medium && (
