@@ -60,16 +60,6 @@ section img.background {
   object-fit: cover;
 }
 
-.name {
-  position: absolute;
-  top: 30%;
-}
-
-.title {
-  position: absolute;
-  top: 50%;
-}
-
 h1 {
   font-weight: 300;
   font-family: 'Cormorant Garamond', serif;
@@ -135,7 +125,7 @@ a:hover {
   margin: 0 auto;
   flex-direction: row;
   padding-top: 3rem;
-  width: 50%;
+  width: 40%;
 }
 
 .container {
@@ -179,6 +169,7 @@ a:hover {
 .about-title {
   text-align: center;
 }
+
 img.socialIcon {
   width: 30px;
   height: 30px;
@@ -195,16 +186,18 @@ img.skill-icon {
 }
 
 img.profile {
-  position: relative;
-  height: 80vw;
-  margin: 10vh 40vw;
+  height: 70vh;
+  max-width: 100%;
   align-items: center;
   box-shadow: 20px 20px rgba(0, 0, 0, 0.663);
   border-radius: 20px;
 }
 
 #home {
-  border: black 2px solid;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column-reverse;
   background: linear-gradient(to bottom right, blue, grey);
 }
 
@@ -230,6 +223,14 @@ img.background {
   img.background {
     max-width: 100%;
   }
+  #home {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column-reverse;
+    background: linear-gradient(to bottom right, blue, grey);
+  }
   #nav-bar {
     max-width: 100%;
     position: fixed;
@@ -243,20 +244,15 @@ img.background {
     z-index: 10;
   }
   img.profile {
-    position: absolute;
-    top: 35%;
-    left: 15%;
-    height: 50%;
-    margin: 0 auto;
-    align-items: center;
-    box-shadow: 20px 20px rgba(0, 0, 0, 0.663);
+    height: 10vw;
+    box-shadow: 20px 20px rgba(120, 120, 120, 0.663);
     border-radius: 20px;
     z-index: 1;
   }
   .profile-details {
     left: 2rem;
   }
-  .name {
+  /* .name {
     position: absolute;
     top: 10%;
     left: 2%;
@@ -267,7 +263,7 @@ img.background {
     top: 25%;
     left: 2%;
     font-size: 20px;
-  }
+  } */
   .profile-arrow {
     position: absolute;
     bottom: 2rem;
@@ -438,6 +434,78 @@ img.background {
   }
 }
 @media screen and (max-width: 701px) {
+  html,
+  body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    font-family: 'Montserrat', sans-serif;
+  }
+  img.background {
+    max-width: 100%;
+  }
+  #nav-bar {
+    max-width: 100%;
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    gap: 0.8rem;
+    background: rgba(255, 255, 255, 0.75);
+    padding: 1rem;
+    top: 0;
+    width: 100%;
+    z-index: 10;
+  }
+  img.profile {
+    position: absolute;
+    top: 35%;
+    left: 28%;
+    height: 50%;
+    margin: 0 auto;
+    align-items: center;
+    box-shadow: 20px 20px rgba(0, 0, 0, 0.663);
+    border-radius: 20px;
+    z-index: 1;
+  }
+  .profile-details {
+    left: 2rem;
+  }
+  .name {
+    position: absolute;
+    top: 10%;
+    left: 25%;
+    font-size: 80px;
+  }
+  .title {
+    position: absolute;
+    top: 25%;
+    left: 25%;
+    font-size: 20px;
+  }
+  .profile-arrow {
+    position: absolute;
+    bottom: 2rem;
+    left: 45%;
+  }
+  p.large {
+    font-size: 20px;
+  }
+  .skillset {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  p.medium {
+    font-size: 20px;
+  }
+  .box-container {
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+  }
+}
+@media screen and (max-width: 1000px) {
   html,
   body {
     margin: 0;
