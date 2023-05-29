@@ -49,7 +49,7 @@ const skillsList = [
  * about you on a professional level.
  */
 const detailOrQuote =
-  "With experience from past positions and Mechanical Engineering degree, I am comfortable leading and working with groups on tight schedules and complex ideas. I am driven by growth and the challenge to develop new and creative solutions.";
+  "With experience from past positions and a Mechanical Engineering degree, I am comfortable leading and working with groups on tight schedules and complex ideas. I am driven by growth and the challenge to develop new and creative solutions.";
 
 const About = () => {
   return (
