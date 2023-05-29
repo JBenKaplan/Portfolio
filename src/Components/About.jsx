@@ -25,7 +25,7 @@ const imageAltText = "purple and blue abstract background";
  * Sort description that expands on your title on the Home component.
  */
 const description =
-  "I'm a graduate of the General Assembly Online Software Engineering Immerisve course. I enjoy creating unique and simplistic user interfaces in creative ways and strive to grow and learn as much as possible.";
+  "I'm a graduate of the General Assembly Online Software Engineering Immersive course. I enjoy creating unique and simplistic user interfaces in creative ways and strive to grow and learn as much as possible.";
 
 /**
  * List of some of skills or technologies you work on, are learning,
