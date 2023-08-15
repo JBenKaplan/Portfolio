@@ -40,11 +40,17 @@ const primaryColor = '#4E567E'
 const secondaryColor = '#D2F1E4'
 
 const App = () => {
+  const handleClick = () => {
+    const element = document.getElementById('about')
+    if (element) {
+      element.scrollIntoView({behavior: 'smooth'})
+    }
+  }
   return (
     <div id="main">
       <Header />
-      <Home name={siteProps.name} title={siteProps.title} />
-      <About />
+      <Home name={siteProps.name} title={siteProps.title} handleClick={handleClick}/>
+      <About id='about'/>
       <Portfolio />
       <Footer
         {...siteProps}

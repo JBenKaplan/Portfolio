@@ -22,9 +22,9 @@ import PropTypes from "prop-types"
  */
 import image from "../images/por.jpeg"
 
-const imageAltText = "woman holding laptop standing by server room with glass wall"
+const imageAltText = "next section arrow"
 
-const Home = ({ name, title }) => {
+const Home = ({ name, title, handleClick}) => {
   return (
     <section id="home" className="dark">
       <img className="profile" src={image} alt="profile" />
@@ -33,7 +33,7 @@ const Home = ({ name, title }) => {
         <h2 className="title">{title}</h2>
       </div>
       <div className="profile-arrow">
-        <img src={arrowSvg} style={{ height: "3rem", width: "3rem" }} alt={imageAltText} />
+        <img src={arrowSvg} style={{ height: "3rem", width: "3rem" }} alt={imageAltText} onClick={handleClick}/>
       </div>
     </section>
   )
